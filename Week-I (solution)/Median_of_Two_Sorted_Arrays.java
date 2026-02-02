@@ -25,7 +25,7 @@ public class Median_of_Two_Sorted_Arrays {
     }
 // optimization 
     public static double findMedianSortedArrays1(int[] a, int[] b) {
-        if (a.length > b.length){
+        if (a.length > b.length){ // binary search on smaller array
             int[] temp = a ;
             a = b; 
             b = temp;
